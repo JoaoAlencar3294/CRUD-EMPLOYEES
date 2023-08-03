@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    height: 680px;
+    padding: 20px 0;
+}
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -600px;
+    width: 1250px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #212529;
+    
+}
+.texto-sobre{
+    margin-top: 100px;
+}
+.texto-sobre h1{
+    margin: 20px;
+    font-size: 50px;
+}
+.imagem{
+    position: absolute;
+    bottom: 100px;
+    right: 400px;
+    width: 1050px;
+    height: 1200px;
+    border-radius: 50%;
+
+}
+.conteudo{
+    margin: 10px;
+    width: 650px;
+    
+}
